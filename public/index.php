@@ -1,7 +1,9 @@
 <?php
 
 // see google doc: developers.google.com/google-apps/calendar/v3/reference/events
-//some change
+
+# some changes
+
 session_start();
 
 // unset($_SESSION['access_token']);
