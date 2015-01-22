@@ -1,7 +1,16 @@
 <?php
 // war vorher im public ordner
+//
+//     	echo "<br><b>-Today-</b><br><br>";
+    	
+//     	$startTime = new \DateTime();
+//     	$startTime->add(\DateInterval::createFromDateString("today"));
+//     	$startTime = $startTime->format('Y-m-d');
+//  	var_dump($startTime) ;   
+    	
 
-<?php
+
+
 
 // see also https://github.com/owncloud/core/issues/7079
 // https://github.com/google/google-api-php-client/issues/102  -> download a spreadsheet
@@ -33,8 +42,8 @@ use Google\Spreadsheet\ServiceRequestFactory;
 the redirect URI is to this page, e.g:
 http://localhost:8080/user-example.php
 ************************************************/
-$client_id = '749610579744-iqo6ils8432mmv7gbhpsci377v2hbusg.apps.googleusercontent.com';
-$client_secret = 'Ke8dXrOtGNjhM6sAJqniY-kp';
+$client_id = 'xxx';
+$client_secret = 'xxx';
 $redirect_uri = 'http://googleApi.com';
 // $redirect_uri = 'http://hiwi2.jochen-bauer.net';
 
